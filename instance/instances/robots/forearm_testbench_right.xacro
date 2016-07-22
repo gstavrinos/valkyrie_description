@@ -11,6 +11,7 @@
     <Channels>
 
     </Channels>
+    <xacro:firmware_base_url/>
 
     <Mechanisms>
     <xacro:simple_mechanism name="testbench_actuator" serial_number="${testbench_serial_number}" node="${testbench_node}" processor_firmware="" fpga_firmware=""/>
