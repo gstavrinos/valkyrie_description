@@ -28,8 +28,10 @@
 	</Mechanisms>
 
 	<Devices>
-		<xacro:ati_force_torque name="left_foot_force_torque" serial_number="${left_foot_ATI_serial}" node="${left_foot_ATI_node}"/>
-		<xacro:ati_force_torque name="right_foot_force_torque" serial_number="${right_foot_ATI_serial}" node="${right_foot_ATI_node}"/>
+		<xacro:ati_force_torque name="leftFootSixAxis" serial_number="${left_foot_ATI_serial}" node="${left_foot_ATI_node}"/>
+		<xacro:ati_force_torque name="rightFootSixAxis" serial_number="${right_foot_ATI_serial}" node="${right_foot_ATI_node}"/>
+		<xacro:imu_device name="pelvisRearImu" DevicePort="${pelvis_rear_imu_port}" DeviceAPI="${ImuMicrostrainCalApi}"/>
+		<xacro:imu_device name="torsoLeftImu" DevicePort="${torso_left_imu_port}" DeviceAPI="${ImuMicrostrainCalApi}" />
 	</Devices>
     
 </robot>
