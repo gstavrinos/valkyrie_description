@@ -1,9 +1,9 @@
 <CoeffData>
   <Coeffs>
     <Coeff description="" value="0" id="Fing1_elecoffset"/>
-    <Coeff description="" value="7517" id="Fing1_APSoffset"/>
-    <Coeff description="" value="512" id="Fing2_elecoffset"/>
-    <Coeff description="" value="6195" id="Fing2_APSoffset"/>
+    <Coeff description="" value="189" id="Fing1_APSoffset"/>
+    <Coeff description="" value="535" id="Fing2_elecoffset"/>
+    <Coeff description="" value="4258" id="Fing2_APSoffset"/>
     <Coeff description="" value="0" id="Fing3_elecoffset"/>
     <Coeff description="" value="2624" id="Fing3_APSoffset"/>
     <Coeff description="" value="140" id="Fing4_elecoffset"/>
