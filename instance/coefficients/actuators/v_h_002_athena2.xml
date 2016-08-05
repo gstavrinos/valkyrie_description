@@ -6,14 +6,14 @@
     <Coeff description="" value="1" id="Fing1_posKP"/>
     <Coeff description="" value="0" id="Fing1_posKD"/>
     <Coeff description="" value="30" id="Fing1_dutylmt"/>
-    <Coeff description="" value="5144" id="Fing1_APSoffset"/>
+    <Coeff description="" value="5414" id="Fing1_APSoffset"/>
     <Coeff description="" value="0" id="Fing2_elecoffset"/>
     <Coeff description="" value="100" id="Fing2_locmdlmt"/>
     <Coeff description="" value="5214" id="Fing2_hicmdlmt"/>
     <Coeff description="" value="1" id="Fing2_posKP"/>
     <Coeff description="" value="0" id="Fing2_posKD"/>
     <Coeff description="" value="30" id="Fing2_dutylmt"/>
-    <Coeff description="" value="1443" id="Fing2_APSoffset"/>
+    <Coeff description="" value="2675" id="Fing2_APSoffset"/>
     <Coeff description="" value="512" id="Fing3_elecoffset"/>
     <Coeff description="" value="100" id="Fing3_locmdlmt"/>
     <Coeff description="" value="5214" id="Fing3_hicmdlmt"/>
