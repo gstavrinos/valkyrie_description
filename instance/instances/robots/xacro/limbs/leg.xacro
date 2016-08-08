@@ -3,8 +3,13 @@
     <xacro:include filename="$(find val_description)/instance/instances/robots/xacro/mechanisms/mechanisms.xacro"/>
     <xacro:include filename="$(find val_description)/common/xacro/joint_names/valkyrie_joint_names.xacro"/>
 
-    <xacro:macro name="leg" params="prefix j1_serial_number j2_serial_number j3_serial_number j4_serial_number ankle_left_actuator_serial ankle_right_actuator_serial" >
-    	<xacro:simple_mechanism name="${HipYawJointName}" serial_number="${j1_serial_number}" node="${HipYawNode}" processor_firmware="${HipYawProcFirmware}" fpga_firmware="${HipYawFPGAFirmware}"/>
+    <xacro:macro name="leg" params="prefix left_side j1_serial_number j2_serial_number j3_serial_number j4_serial_number ankle_left_actuator_serial ankle_right_actuator_serial" >
+        <xacro:if value="${left_side}">$
+    	    <xacro:simple_mechanism name="${HipYawJointName}" serial_number="${j1_serial_number}" node="${HipYawNode}" processor_firmware="${LeftHipYawProcFirmware}" fpga_firmware="${LeftHipYawFPGAFirmware}"/>
+        </xacro:if>
+        <xacro:unless value="${left_side}">$
+    	    <xacro:simple_mechanism name="${HipYawJointName}" serial_number="${j1_serial_number}" node="${HipYawNode}" processor_firmware="${RightHipYawProcFirmware}" fpga_firmware="${RightHipYawFPGAFirmware}"/>
+        </xacro:unless>
 
     	<xacro:simple_mechanism name="${HipRollJointName}" serial_number="${j2_serial_number}" node="${HipRollNode}" processor_firmware="${HipRollProcFirmware}" fpga_firmware="${HipRollFPGAFirmware}"/>
 
