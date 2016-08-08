@@ -5,7 +5,7 @@
     <xacro:property name="PrivateProcFirmwareBaseURL" value="http://flexo.jsc.nasa.gov/bamboo/browse/EMB-SEAP/latest/artifact/shared/"/>
 
     <xacro:property name="PublicFPGAFirmwareBaseURL" value="http://linkthatdoesnotresolve.com"/>
-    <xacro:property name="PrivateFPGAFirmwareBaseURL" value="http://flexo.jsc.nasa.gov/bamboo/browse/EMB-TURD/latest/artifact/shared/"/>
+    <xacro:property name="PrivateFPGAFirmwareBaseURL" value="http://flexo.jsc.nasa.gov/bamboo/browse/EMB-TURD/latest/artifact/BS/SBF-File/"/>
 
     <xacro:property name="TurboProcRotaryFirmwareExtension" value="Rotary-Binary-for-Bootloader/turbo_bootloader.bin"/>
     <xacro:property name="TurboProcLinearFirmwareExtension" value="Linear-Binary-for-Bootloader/turbo_bootloader.bin"/>
