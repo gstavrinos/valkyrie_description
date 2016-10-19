@@ -19,13 +19,13 @@
       <!--</joint>-->
     <!--</gazebo>-->
   <gazebo>
-      <joint name="fixed" type="revolute">
-        <parent>world</parent>
-        <child>fixedLink</child>
-        <origin rpy="0 0 0" xyz="0 0 1"/>
-        <axis xyz="1 0 0"/>
-      </joint>
-    </gazebo>
+    <joint name="fixed" type="fixed">
+      <parent>world</parent>
+      <child>fixedLink</child>
+      <origin rpy="0 0 0" xyz="0 0 1"/>
+      <axis xyz="1 0 0"/>
+    </joint>
+  </gazebo>
   <link name="fixedLink">
     <inertial>
       <mass value="8.22"/>
@@ -33,9 +33,9 @@
       <inertia ixx="0.11866378" ixy="-0.000143482" ixz="0.003271293" iyy="0.097963425" iyz="0.002159545" izz="0.083854638"/>
     </inertial>
   </link>
-  <joint name="rootJoint" type="revolute">
+  <joint name="rootJoint" type="fixed">
     <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="1 0 0"/>
     <parent link="fixedLink"/>
     <child link="fixedLink2"/>
     <limit effort="0" lower="-10" upper="110" velocity="2"/>
@@ -50,7 +50,7 @@
   </link>
   <joint name="fakeJoint2" type="revolute">
     <origin rpy="0.0 0.0 0.0" xyz="0 0 0"/>
-    <axis xyz="0 1 0"/>
+    <axis xyz="1 0 0"/>
     <parent link="fixedLink"/>
     <child link="pelvis"/>
     <limit effort="0" lower="-10" upper="110" velocity="2"/>
