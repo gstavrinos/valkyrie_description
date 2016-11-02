@@ -41,5 +41,9 @@
 	<xacro:property name="right_foot_ATI_serial" value="FT16592" />
 
 	<xacro:property name="sim_ATI_serial" value="FT001SIM" />
+
+	<xacro:property name="pelvis_middle_imu_serial" value="000001" />
+	<xacro:property name="pelvis_rear_imu_serial" value="47095" />
+	<xacro:property name="torso_left_imu_serial" value="47090" />
     
 </robot>
