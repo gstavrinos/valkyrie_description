@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="microstrain">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="inertial_measurement_unit">
 
-  <xacro:macro name="microstrain_sensor" params="sensorName parentLink origin_xyz origin_rpy">
+  <xacro:macro name="imu_sensor" params="sensorName parentLink origin_xyz origin_rpy">
     
     <xacro:massless_virtual_link name="${sensorName}_Frame"
                     origin_rpy="0 0 0"
@@ -51,7 +51,7 @@
   </xacro:macro>
   
 
-  <xacro:macro name="usb_microstrain_sensor" params="sensorName parentLink origin_xyz origin_rpy sensor_node sensor_api sensor_port">
+  <xacro:macro name="usb_imu_sensor" params="sensorName parentLink origin_xyz origin_rpy sensor_node sensor_api sensor_pkg sensor_config_file">
     
     <xacro:massless_virtual_link name="${sensorName}_Frame"
                     origin_rpy="0 0 0"
@@ -78,9 +78,10 @@
         <imuTransform>${origin_xyz} ${origin_rpy}</imuTransform>
         <always_on>true</always_on>
         <pose>0 0 0 0 0 0 </pose>
-        <node name="${sensor_node}" />
+        <node id="${sensor_node}" />
         <api name="${sensor_api}" />
-        <port name="${sensor_port}" />
+        <package name="${sensor_pkg}" />
+        <config name="${sensor_config_file}" />
         <imu>
            <noise>
                <type>gaussian</type>

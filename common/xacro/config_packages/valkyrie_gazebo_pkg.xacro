@@ -1,16 +1,16 @@
-<robot xmlns:xacro="http://ros.org/wiki/xacro" name="valkyrie_D_pkg">
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="valkyrie_gazebo_pkg">
 
 	<xacro:property name="left_foot_ATI_pkg" value="val_config_files" />
 	<xacro:property name="right_foot_ATI_pkg" value="val_config_files" />
 
-	<xacro:property name="left_foot_ATI_cal" value="ati_config/FT17212.cal"/>
-	<xacro:property name="right_foot_ATI_cal" value="ati_config/FT16590.cal" />
+	<xacro:property name="left_foot_ATI_cal" value="ati_config/FT001SIM.cal"/>
+	<xacro:property name="right_foot_ATI_cal" value="ati_config/FT001SIM.cal" />
 
 	<xacro:property name="pelvis_middle_imu_pkg" value="val_config_files" />
 	<xacro:property name="pelvis_rear_imu_pkg" value="val_config_files" />
 	<xacro:property name="torso_left_imu_pkg" value="val_config_files" />
 
 	<xacro:property name="pelvis_middle_imu_cal" value="None" />
-	<xacro:property name="pelvis_rear_imu_cal" value="3dm_gx4_15/51067/Calibration.cal" />
-	<xacro:property name="torso_left_imu_cal" value="3dm_gx4_15/47093/Calibration.cal" />
+	<xacro:property name="pelvis_rear_imu_cal" value="None" />
+	<xacro:property name="torso_left_imu_cal" value="None" />
 </robot>

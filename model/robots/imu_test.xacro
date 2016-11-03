@@ -1,4 +1,4 @@
-<robot xmlns:xacro="http://ros.org/wiki/xacro" name="valkyrie">
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="valkyrie_imu_test">
 
     <xacro:property name="mesh_root" value="package://val_description/model/meshes"/>
     <xacro:include filename="$(find val_description)/model/robots/common/xacro/generic_models.xacro" />
@@ -6,5 +6,6 @@
     <xacro:include filename="$(find val_description)/model/robots/common/xacro/valkyrie_imu_base.xacro"/>
     <xacro:include filename="$(find val_description)/common/xacro/serial_numbers/valkyrie_C_serials.xacro"/>
     <xacro:include filename="$(find val_description)/common/xacro/dev_ports/valkyrie_imu_test_ports.xacro"/>
+    <xacro:include filename="$(find val_description)/common/xacro/config_packages/valkyrie_imu_test_pkg.xacro"/>
 
 </robot>

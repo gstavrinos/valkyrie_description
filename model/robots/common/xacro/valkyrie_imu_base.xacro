@@ -1,10 +1,10 @@
-<robot xmlns:xacro="http://ros.org/wiki/xacro" name="valkyrie">
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="valkyrie_imu_base">
 
     <xacro:property name="KVHHardwareApi" value="val_imu_kvh_1750_interface/ImuKVHInterface" />
 
     <xacro:make_pelvis />
 
     <xacro:include_multisense_hw />
-    <xacro:v1_pelvis_middle_sensors_usb sensor_node_tag="${pelvis_middle_imu_node}" sensor_api_tag="${KVHHardwareApi}"  sensor_port_tag="${pelvis_middle_imu_port}"/>
+    <xacro:v1_pelvis_middle_sensors_usb sensor_node_tag="${pelvis_middle_imu_node}" sensor_api_tag="${KVHHardwareApi}"  sensor_pkg_tag="${pelvis_middle_imu_pkg}" sensor_config_tag="${pelvis_middle_imu_cal}" />
 
 </robot>
