@@ -112,7 +112,7 @@
     <sensor name="FakeImu" type="imu">
       <always_on>true</always_on>
       <pose>0 0 0 0 0 0</pose>
-      <node name="/sensors/FakeIMU"/>
+      <node id="/sensors/FakeIMU"/>
       <api name="simulated_imu_sensor::SimulatedImuSensor"/>
       <package name="val_config_files"/>
       <config name="None"/>
