@@ -118,17 +118,17 @@
       <config name="None"/>
       <imu>
         <noise>
-          <type>none</type>
+          <type>gaussian</type>
           <rate>
             <mean>0</mean>
-            <stddev>1e-6</stddev>
-            <bias_mean>7.5e-06</bias_mean>
-            <bias_stddev>8e-07</bias_stddev>
+            <stddev>0.002</stddev>
+            <bias_mean>0.01</bias_mean>
+            <bias_stddev>0.00001</bias_stddev>
           </rate>
           <accel>
             <mean>0</mean>
-            <stddev>1e-6</stddev>
-            <bias_mean>1e-8</bias_mean>
+            <stddev>0.1</stddev>
+            <bias_mean>0.0001</bias_mean>
             <bias_stddev>1e-8</bias_stddev>
           </accel>
         </noise>
