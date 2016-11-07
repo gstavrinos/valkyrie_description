@@ -121,15 +121,15 @@
           <type>gaussian</type>
           <rate>
             <mean>0</mean>
-            <stddev>0.002</stddev>
-            <bias_mean>0.01</bias_mean>
-            <bias_stddev>0.00001</bias_stddev>
+            <stddev>0.0001</stddev>
+            <bias_mean>0.00001</bias_mean>
+            <bias_stddev>0.000001</bias_stddev>
           </rate>
           <accel>
             <mean>0</mean>
-            <stddev>0.1</stddev>
-            <bias_mean>0.0001</bias_mean>
-            <bias_stddev>1e-8</bias_stddev>
+            <stddev>0.025</stddev>
+            <bias_mean>0.002</bias_mean>
+            <bias_stddev>0.00005</bias_stddev>
           </accel>
         </noise>
       </imu>
