@@ -7,6 +7,5 @@
     <xacro:include filename="$(find val_description)/common/xacro/serial_numbers/valkyrie_B_serials.xacro"/>
     <xacro:include filename="$(find val_description)/common/xacro/api/valkyrie_B_api.xacro"/>
     <xacro:include filename="$(find val_description)/common/xacro/config_packages/valkyrie_B_pkg.xacro"/>
-    <xacro:include filename="$(find val_description)/common/xacro/dev_ports/valkyrie_B_ports.xacro"/>
 
 </robot>
