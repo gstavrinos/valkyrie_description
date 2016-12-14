@@ -1,6 +1,8 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="valkyrie_imu_test_pkg">
 
 	<xacro:property name="pelvis_middle_imu_pkg" value="val_config_files" />
+	<xacro:property name="pelvis_rear_imu_pkg" value="val_config_files" />
 
-	<xacro:property name="pelvis_middle_imu_cal" value="kvh_1750/1608K047/Calibration.cal" />
+	<xacro:property name="pelvis_middle_imu_cal" value="kvh_1750/1608K048/Calibration.cal" />
+	<xacro:property name="pelvis_rear_imu_cal" value="3dm_gx4_15/47099/Calibration.cal" />
 </robot>
