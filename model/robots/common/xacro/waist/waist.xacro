@@ -52,8 +52,8 @@
                     origin_xyz="${TorsoYawLinkComPosition}"
                     ixx="${TorsoYawLinkInertia_IXX}" ixy="${TorsoYawLinkInertia_IXY}" ixz="${TorsoYawLinkInertia_IXZ}"
                     iyy="${TorsoYawLinkInertia_IYY}" iyz="${TorsoYawLinkInertia_IYZ}" izz="${TorsoYawLinkInertia_IZZ}"
-                    visual_mesh="${mesh_root}/torso/torsoyaw.dae"
-                    collision_mesh="${mesh_root}/torso/torsoyaw.dae" />
+                    visual_mesh="${waist_mesh_dir}/torsoyaw.dae"
+                    collision_mesh="${waist_mesh_dir}/torsoyaw.dae" />
 
     <xacro:standard_link name="${TorsoPitchLinkName}"
                     mass="${TorsoPitchLinkMass}"
@@ -61,8 +61,8 @@
                     origin_xyz="${TorsoPitchLinkComPosition}"
                     ixx="${TorsoPitchLinkInertia_IXX}" ixy="${TorsoPitchLinkInertia_IXY}" ixz="${TorsoPitchLinkInertia_IXZ}"
                     iyy="${TorsoPitchLinkInertia_IYY}" iyz="${TorsoPitchLinkInertia_IYZ}" izz="${TorsoPitchLinkInertia_IZZ}"
-                    visual_mesh="${mesh_root}/torso/torsopitch.dae"
-                    collision_mesh="${mesh_root}/torso/torsopitch.dae" />
+                    visual_mesh="${waist_mesh_dir}/torsopitch.dae"
+                    collision_mesh="${waist_mesh_dir}/torsopitch.dae" />
 
     <xacro:standard_link name="${TorsoRollLinkName}"
                     mass="${TorsoRollLinkMass}"
@@ -70,8 +70,8 @@
                     iyy="${TorsoRollLinkInertia_IYY}" iyz="${TorsoRollLinkInertia_IYZ}" izz="${TorsoRollLinkInertia_IZZ}"
                     origin_rpy="0 0 0"
                     origin_xyz="${TorsoRollLinkComPosition}"
-                    visual_mesh="${mesh_root}/torso/torso.dae"
-                    collision_mesh="${mesh_root}/torso/torso.dae" />
+                    visual_mesh="${waist_mesh_dir}/torso.dae"
+                    collision_mesh="${waist_mesh_dir}/torso.dae" />
 
     <xacro:make_waist_common waist_root_link="${waist_root_link}"/>
   </xacro:macro>
@@ -100,8 +100,8 @@
   <xacro:macro name="v1_trunk_sensors_usb" params="sensor_node_tag sensor_api_tag sensor_pkg_tag sensor_config_tag">
     <xacro:usb_imu_sensor sensorName="leftTorsoImu"
                               parentLink="${TorsoRollLinkName}"
-                              origin_xyz="-0.0627634 0.134239 0.3630676"
-                              origin_rpy="-1.5707 0.0 0.0"
+                              origin_xyz="${TorsoImuFrameOrigin_XYZ}"
+                              origin_rpy="${TorsoImuFrameOrientation_RPY}"
                               sensor_node="${sensor_node_tag}"
                               sensor_api="${sensor_api_tag}"
                               sensor_pkg="${sensor_pkg_tag}" 
