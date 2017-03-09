@@ -20,4 +20,5 @@
     <xacro:arm_transmissions_no_hands prefix="left"/>
     <xacro:arm_transmissions_no_hands prefix="right"/>
     <xacro:neck_transmissions_hw />
+    
 </robot>

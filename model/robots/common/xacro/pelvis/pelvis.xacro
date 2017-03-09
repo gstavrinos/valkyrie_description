@@ -75,5 +75,5 @@
                                   sensor_api="${middle_sensor_api_tag}"
                                   sensor_pkg="${middle_sensor_pkg_tag}" 
                                   sensor_config_file="${middle_sensor_config_tag}" />
-    </xacro:macro
+    </xacro:macro>
 </robot>
