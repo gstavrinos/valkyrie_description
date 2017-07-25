@@ -9,5 +9,6 @@
     <xacro:property name="ThumbRollNode" value="/right_arm/hand/thumb_roll" />
     <xacro:property name="WristLeftNode" value="/right_arm/wrist/left_actuator" />
     <xacro:property name="WristRightNode" value="/right_arm/wrist/right_actuator" />
+    <xacro:property name="ForearmSensorsNode" value="/right_arm/forearm_sensors" />
 
 </robot>

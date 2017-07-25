@@ -16,6 +16,7 @@
 	<xacro:property name="WristBottomActuatorNode" value="/${prefix}_arm/wrist/bottom_actuator" />
 	<xacro:property name="WristLeftActuatorNode" value="/${prefix}_arm/wrist/left_actuator" />
 	<xacro:property name="WristRightActuatorNode" value="/${prefix}_arm/wrist/right_actuator" />
+	<xacro:property name="ForearmSensorsNode" value="/${prefix}_arm/forearm_sensors" />
 
     	<xacro:property name="IndexNode" value="/${prefix}_arm/hand/index" />
     	<xacro:property name="MiddleNode" value="/${prefix}_arm/hand/middle" />
@@ -25,6 +26,7 @@
     	<xacro:property name="ThumbRollNode" value="/${prefix}_arm/hand/thumb_roll" />
     	<xacro:property name="WristLeftNode" value="/${prefix}_arm/wrist/left_actuator" />
     	<xacro:property name="WristRightNode" value="/${prefix}_arm/wrist/right_actuator" />
+    	<xacro:property name="ForearmSensorsNode" value="/${prefix}_arm/forearm_sensors" />
 
 	<xacro:property name="LowerNeckPitchNode" value="/neck/j1" />
 	<xacro:property name="NeckYawNode" value="/neck/j2" />
