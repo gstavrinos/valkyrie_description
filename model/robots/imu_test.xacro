@@ -7,5 +7,19 @@
     <xacro:include filename="$(find val_description)/model/robots/common/xacro/valkyrie_imu_base.xacro"/>
     <xacro:include filename="$(find val_description)/common/xacro/serial_numbers/valkyrie_C_serials.xacro"/>
     <xacro:include filename="$(find val_description)/common/xacro/config_packages/valkyrie_imu_test_pkg.xacro"/>
+    <xacro:property name="pelvis_mesh_dir" value="package://val_description/model/meshes/pelvis"/>
+    <xacro:property name="head_mesh_dir" value="package://val_description/model/meshes/head"/>
+    <xacro:property name="waist_mesh_dir" value="package://val_description/model/meshes/torso"/>
+
+    <xacro:include filename="$(find val_description)/model/robots/common/xacro/sensors/sensor_transforms.xacro"/>
+
+    <!-- Pelvis include -->
+    <xacro:include filename="$(find val_description)/model/robots/common/xacro/pelvis/pelvis_includes.xacro"/>
+
+    <!-- Head include -->
+    <xacro:include filename="$(find val_description)/model/robots/common/xacro/head/head_includes.xacro"/>
+
+    <!-- Waist include -->
+    <xacro:include filename="$(find val_description)/model/robots/common/xacro/waist/waist_includes.xacro"/>
 
 </robot>

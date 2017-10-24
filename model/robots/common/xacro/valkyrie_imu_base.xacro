@@ -4,7 +4,7 @@
     <xacro:property name="MicroStrainHardwareApi" value="imu_3dm_gx4_15_sensor::Imu3DmGx415Sensor" />
 
     <xacro:make_pelvis />
-
+    
     <xacro:include_multisense_hw />
 
     <xacro:v1_pelvis_sensors_usb middle_sensor_node_tag="${pelvis_middle_imu_node}" middle_sensor_api_tag="${KVHHardwareApi}" middle_sensor_pkg_tag="${pelvis_middle_imu_pkg}" middle_sensor_config_tag="${pelvis_middle_imu_cal}" rear_sensor_node_tag="${pelvis_rear_imu_node}" rear_sensor_api_tag="${MicroStrainHardwareApi}" rear_sensor_pkg_tag="${pelvis_rear_imu_pkg}" rear_sensor_config_tag="${pelvis_rear_imu_cal}"/>
