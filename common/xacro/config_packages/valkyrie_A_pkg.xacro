@@ -11,6 +11,6 @@
 	<xacro:property name="torso_left_imu_pkg" value="val_config_files" />
 
 	<xacro:property name="pelvis_middle_imu_cal" value="3dm_gx4_15/47095/Calibration.cal" />
-	<xacro:property name="pelvis_rear_imu_cal" value="kvh_1750/1608K048/Calibration.cal" />
+	<xacro:property name="pelvis_rear_imu_cal" value="stim300/N25581710875719/Calibration.cal"
 	<xacro:property name="torso_left_imu_cal" value="3dm_gx4_15/47090/Calibration.cal" />
 </robot>
