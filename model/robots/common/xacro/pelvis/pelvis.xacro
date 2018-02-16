@@ -15,8 +15,8 @@
     <xacro:macro name="v1_pelvis_sensors">
         <xacro:imu_sensor sensorName="pelvisRearImu"
                                   parentLink="${Pelvis_Link_Name}"
-                                  origin_xyz="-0.075844901 0.0 -0.111056426"
-                                  origin_rpy="-3.14159 0.476467 -3.14159" />
+                                  origin_xyz="0.03 0.1116 -0.1833"
+                                  origin_rpy="3.14159 0.0 0.0" />
 
         <xacro:imu_sensor sensorName="pelvisMiddleImu"
                                   parentLink="${Pelvis_Link_Name}"
@@ -60,8 +60,8 @@
     <xacro:macro name="v1_pelvis_sensors_usb" params="middle_sensor_node_tag middle_sensor_api_tag middle_sensor_pkg_tag middle_sensor_config_tag rear_sensor_node_tag rear_sensor_api_tag rear_sensor_pkg_tag rear_sensor_config_tag">
         <xacro:usb_imu_sensor sensorName="pelvisRearImu"
                                   parentLink="${Pelvis_Link_Name}"
-                                  origin_xyz="-0.075844901 0.0 -0.111056426"
-                                  origin_rpy="-3.14159 0.476467 -3.14159" 
+                                  origin_xyz="0.03 0.1116 -0.1833"
+                                  origin_rpy="3.14159 0.0 0.0" 
                                   sensor_node="${rear_sensor_node_tag}"
                                   sensor_api="${rear_sensor_api_tag}"
                                   sensor_pkg="${rear_sensor_pkg_tag}" 

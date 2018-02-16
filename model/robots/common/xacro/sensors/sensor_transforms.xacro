@@ -1,8 +1,10 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="v1/arm/dh_parameters">
   
-	<xacro:property name="PelvisRearImuFrameOrigin_XYZ" value="-0.075844901 0.0 -0.111056426"/>
-	<xacro:property name="PelvisRearImuFrameOrientation_RPY" value="-3.14159 0.476467 -3.14159"/>
+	<!--<xacro:property name="PelvisRearImuFrameOrigin_XYZ" value="-0.075844901 0.0 -0.111056426"/>
+	<xacro:property name="PelvisRearImuFrameOrientation_RPY" value="-3.14159 0.476467 -3.14159"/> -->
+	<xacro:property name="PelvisRearImuFrameOrigin_XYZ" value="0.03 0.1116 -0.1833"/>
+	<xacro:property name="PelvisRearImuFrameOrientation_RPY" value="3.14159 0 0"/>
 
 	<xacro:property name="PelvisMiddleImuFrameOrigin_XYZ" value="0.0 0.0 -0.10819638"/>
 	<xacro:property name="PelvisMiddleImuFrameOrientation_RPY" value="3.14159 0.0 0.0"/>
