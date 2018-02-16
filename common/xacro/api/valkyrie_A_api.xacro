@@ -28,7 +28,7 @@
     <xacro:property name="ImuStimHardwareApi" value="stim_300_sensor::STIM300ConstSensor" />
     <xacro:property name="ImuSensorSimApi" value="val_imu_gazebo_interface/ImuGazeboInterface" />
     
-    <xacro:property name="rearPelvisImuApi" value="${ImuKVHHardwareApi}" />
+    <xacro:property name="rearPelvisImuApi" value="${ImuStimHardwareApi}" />
     <xacro:property name="middlePelvisImuApi" value="${ImuMicrostrainHardwareApi}" />
     <xacro:property name="trunkImuApi" value="${ImuMicrostrainHardwareApi}" />
 

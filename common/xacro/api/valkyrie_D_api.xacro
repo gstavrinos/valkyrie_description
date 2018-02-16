@@ -25,8 +25,7 @@
 
     <xacro:property name="ForceTorqueSensorApi" value="ati_sensor_interface::ATISensorInterface" />
     <xacro:property name="ImuMicrostrainHardwareApi" value="imu_3dm_gx4_15_sensor::Imu3DmGx415Sensor" />
-    <xacro:property name="ImuKVHHardwareApi" value="kvh_1750_sensor::KVH1750ConstSensor" />
-    <xacro:property name="ImuVectorNavHardwareApi" value="val_imu_vectornav_vn100_interface/ImuVecotNavInterface" />
+    <xacro:property name="ImuStimHardwareApi" value="stim_300_sensor::STIM300ConstSensor" />
     <xacro:property name="ImuSensorSimApi" value="val_imu_gazebo_interface/ImuGazeboInterface" />
 
     <xacro:property name="rearPelvisImuApi" value="${ImuMicrostrainHardwareApi}" />
