@@ -1,0 +1,122 @@
+<CoeffData>
+    <Properties>
+      <CalibrationDate/>
+      <FileGenDate date="2014-12-19" time="11:13:39.501828"/>
+    </Properties>
+    <ClassFile id="h.xml" />
+    <ControllerFile id="h_sv.xml" />
+    <LocationFile id="finger.xml"/>
+    <SensorsFile id="sensors_leonidas.xml" />
+    <SafetyFile id="safety_fingers.xml" />
+  <Coeffs>
+    <Coeff value="-0.175848072458" id="PalmBarometer5_A" description="Palm Barometer5 Coefficient A"/>
+    <Coeff value="198.51356305" id="PalmBarometer5_B" description="Palm Barometer5 Coefficient B"/>
+    <Coeff value="-0.173435901034" id="PalmBarometer4_A" description="Palm Barometer4 Coefficient A"/>
+    <Coeff value="195.400171065" id="PalmBarometer4_B" description="Palm Barometer4 Coefficient B"/>
+    <Coeff value="-0.159583366745" id="PalmBarometer7_A" description="Palm Barometer7 Coefficient A"/>
+    <Coeff value="186.814516129" id="PalmBarometer7_B" description="Palm Barometer7 Coefficient B"/>
+    <Coeff value="-0.169084685056" id="PalmBarometer6_A" description="Palm Barometer6 Coefficient A"/>
+    <Coeff value="193.644916911" id="PalmBarometer6_B" description="Palm Barometer6 Coefficient B"/>
+    <Coeff value="-0.175468019726" id="PalmBarometer1_A" description="Palm Barometer1 Coefficient A"/>
+    <Coeff value="196.194403715" id="PalmBarometer1_B" description="Palm Barometer1 Coefficient B"/>
+    <Coeff value="-0.162934035733" id="PalmBarometer0_A" description="Palm Barometer0 Coefficient A"/>
+    <Coeff value="188.657135875" id="PalmBarometer0_B" description="Palm Barometer0 Coefficient B"/>
+    <Coeff value="-0.176941693587" id="PalmBarometer3_A" description="Palm Barometer3 Coefficient A"/>
+    <Coeff value="197.560483871" id="PalmBarometer3_B" description="Palm Barometer3 Coefficient B"/>
+    <Coeff value="-0.165780553137" id="PalmBarometer2_A" description="Palm Barometer2 Coefficient A"/>
+    <Coeff value="190.81744868" id="PalmBarometer2_B" description="Palm Barometer2 Coefficient B"/>
+    <Coeff value="-0.137134941908" id="ThumbBarometer5_A" description="Thumb Barometer5 Coefficient A"/>
+    <Coeff value="153.741966688" id="ThumbBarometer5_B" description="Thumb Barometer5 Coefficient B"/>
+    <Coeff value="-0.135670948122" id="ThumbBarometer4_A" description="Thumb Barometer4 Coefficient A"/>
+    <Coeff value="152.867213274" id="ThumbBarometer4_B" description="Thumb Barometer4 Coefficient B"/>
+    <Coeff value="-0.134293408454" id="ThumbBarometer7_A" description="Thumb Barometer7 Coefficient A"/>
+    <Coeff value="151.699578816" id="ThumbBarometer7_B" description="Thumb Barometer7 Coefficient B"/>
+    <Coeff value="-0.131023967254" id="ThumbBarometer6_A" description="Thumb Barometer6 Coefficient A"/>
+    <Coeff value="151.843816584" id="ThumbBarometer6_B" description="Thumb Barometer6 Coefficient B"/>
+    <Coeff value="-0.146564651911" id="ThumbBarometer1_A" description="Thumb Barometer1 Coefficient A"/>
+    <Coeff value="163.835449815" id="ThumbBarometer1_B" description="Thumb Barometer1 Coefficient B"/>
+    <Coeff value="-0.145958064239" id="ThumbBarometer0_A" description="Thumb Barometer0 Coefficient A"/>
+    <Coeff value="163.021601792" id="ThumbBarometer0_B" description="Thumb Barometer0 Coefficient B"/>
+    <Coeff value="-0.133030878367" id="ThumbBarometer3_A" description="Thumb Barometer3 Coefficient A"/>
+    <Coeff value="150.935955924" id="ThumbBarometer3_B" description="Thumb Barometer3 Coefficient B"/>
+    <Coeff value="-0.148398200321" id="ThumbBarometer2_A" description="Thumb Barometer2 Coefficient A"/>
+    <Coeff value="166.017301528" id="ThumbBarometer2_B" description="Thumb Barometer2 Coefficient B"/>
+    <Coeff value="0.00290887233329" id="ThumbRoll_A" description="Thumb Roll Hall Sensor Coefficient A"/>
+    <Coeff value="-0.744669012312" id="ThumbRoll_B" description="Thumb Roll Hall Sensor Coefficient B"/>
+    <Coeff value="-0.00159390188861" id="ThumbProximal_A" description="Thumb Proximal Hall Sensor Coefficient A"/>
+    <Coeff value="-3.11918177811e-06" id="ThumbProximal_B" description="Thumb Proximal Hall Sensor Coefficient B"/>
+    <Coeff value="0.509054365165" id="ThumbMedial_A" description="Thumb Medial Hall Sensor Coefficient A"/>
+    <Coeff value="-260.519479681" id="ThumbMedial_B" description="Thumb Medial Hall Sensor Coefficient B"/>
+    <Coeff value="-0.00142312668626" id="ThumbDistal_A" description="Thumb Distal Hall Sensor Coefficient A"/>
+    <Coeff value="-2.78498373046e-06" id="ThumbDistal_B" description="Thumb Distal Hall Sensor Coefficient B"/>
+
+    <Coeff value="-0.14454362213" id="IndexBarometer5_A" description="Index Barometer5 Coefficient A"/>
+    <Coeff value="160.950461767" id="IndexBarometer5_B" description="Index Barometer5 Coefficient B"/>
+    <Coeff value="-0.121500137847" id="IndexBarometer4_A" description="Index Barometer4 Coefficient A"/>
+    <Coeff value="143.806271371" id="IndexBarometer4_B" description="Index Barometer4 Coefficient B"/>
+    <Coeff value="-0.146477273715" id="IndexBarometer7_A" description="Index Barometer7 Coefficient A"/>
+    <Coeff value="162.162946326" id="IndexBarometer7_B" description="Index Barometer7 Coefficient B"/>
+    <Coeff value="-0.133415051569" id="IndexBarometer6_A" description="Index Barometer6 Coefficient A"/>
+    <Coeff value="154.339545316" id="IndexBarometer6_B" description="Index Barometer6 Coefficient B"/>
+    <Coeff value="-0.132147280002" id="IndexBarometer1_A" description="Index Barometer1 Coefficient A"/>
+    <Coeff value="152.09269683" id="IndexBarometer1_B" description="Index Barometer1 Coefficient B"/>
+    <Coeff value="-0.147379308152" id="IndexBarometer0_A" description="Index Barometer0 Coefficient A"/>
+    <Coeff value="162.165121934" id="IndexBarometer0_B" description="Index Barometer0 Coefficient B"/>
+    <Coeff value="-0.13984116641" id="IndexBarometer3_A" description="Index Barometer3 Coefficient A"/>
+    <Coeff value="157.745337463" id="IndexBarometer3_B" description="Index Barometer3 Coefficient B"/>
+    <Coeff value="-0.130885658842" id="IndexBarometer2_A" description="Index Barometer2 Coefficient A"/>
+    <Coeff value="150.282152759" id="IndexBarometer2_B" description="Index Barometer2 Coefficient B"/>
+    <Coeff value="-0.698131700798" id="IndexProximal_A" description="Index Proximal Hall Sensor Coefficient A"/>
+    <Coeff value="184.481301936" id="IndexProximal_B" description="Index Proximal Hall Sensor Coefficient B"/>
+    <Coeff value="0.450876723432" id="IndexMedial_A" description="Index Medial Hall Sensor Coefficient A"/>
+    <Coeff value="-53.203453365" id="IndexMedial_B" description="Index Medial Hall Sensor Coefficient B"/>
+    <Coeff value="0.218166156499" id="IndexDistal_A" description="Index Distal Hall Sensor Coefficient A"/>
+    <Coeff value="-63.9226838543" id="IndexDistal_B" description="Index Distal Hall Sensor Coefficient B"/>
+
+    <Coeff value="0.0" id="MiddleBarometer5_A" description="Middle Barometer5 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer5_B" description="Middle Barometer5 Coefficient B"/>
+    <Coeff value="0.0" id="MiddleBarometer4_A" description="Middle Barometer4 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer4_B" description="Middle Barometer4 Coefficient B"/>
+    <Coeff value="0.0" id="MiddleBarometer7_A" description="Middle Barometer7 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer7_B" description="Middle Barometer7 Coefficient B"/>
+    <Coeff value="0.0" id="MiddleBarometer6_A" description="Middle Barometer6 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer6_B" description="Middle Barometer6 Coefficient B"/>
+    <Coeff value="0.0" id="MiddleBarometer1_A" description="Middle Barometer1 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer1_B" description="Middle Barometer1 Coefficient B"/>
+    <Coeff value="0.0" id="MiddleBarometer0_A" description="Middle Barometer0 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer0_B" description="Middle Barometer0 Coefficient B"/>
+    <Coeff value="0.0" id="MiddleBarometer3_A" description="Middle Barometer3 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer3_B" description="Middle Barometer3 Coefficient B"/>
+    <Coeff value="0.0" id="MiddleBarometer2_A" description="Middle Barometer2 Coefficient A"/>
+    <Coeff value="50.0" id="MiddleBarometer2_B" description="Middle Barometer2 Coefficient B"/>
+    <Coeff value="-0.00645174636797" id="MiddleProximal_A" description="Middle Proximal Hall Sensor Coefficient A"/>
+    <Coeff value="0.925445877387" id="MiddleProximal_B" description="Middle Proximal Hall Sensor Coefficient B"/>
+    <Coeff value="-0.00342056599846" id="MiddleMedial_A" description="Middle Medial Hall Sensor Coefficient A"/>
+    <Coeff value="-0.359023641774" id="MiddleMedial_B" description="Middle Medial Hall Sensor Coefficient B"/>
+    <Coeff value="-0.0030691438089" id="MiddleDistal_A" description="Middle Distal Hall Sensor Coefficient A"/>
+    <Coeff value="-0.158269778445" id="MiddleDistal_B" description="Middle Distal Hall Sensor Coefficient B"/>
+
+    <Coeff value="-0.133078354661" id="PinkyBarometer5_A" description="Pinky Barometer5 Coefficient A"/>
+    <Coeff value="153.112696315" id="PinkyBarometer5_B" description="Pinky Barometer5 Coefficient B"/>
+    <Coeff value="-0.118304789358" id="PinkyBarometer4_A" description="Pinky Barometer4 Coefficient A"/>
+    <Coeff value="140.775517588" id="PinkyBarometer4_B" description="Pinky Barometer4 Coefficient B"/>
+    <Coeff value="-0.109235362923" id="PinkyBarometer7_A" description="Pinky Barometer7 Coefficient A"/>
+    <Coeff value="134.199771527" id="PinkyBarometer7_B" description="Pinky Barometer7 Coefficient B"/>
+    <Coeff value="-0.125320964545" id="PinkyBarometer6_A" description="Pinky Barometer6 Coefficient A"/>
+    <Coeff value="146.114734937" id="PinkyBarometer6_B" description="Pinky Barometer6 Coefficient B"/>
+    <Coeff value="-0.120425816272" id="PinkyBarometer1_A" description="Pinky Barometer1 Coefficient A"/>
+    <Coeff value="143.437158728" id="PinkyBarometer1_B" description="Pinky Barometer1 Coefficient B"/>
+    <Coeff value="-0.131808189586" id="PinkyBarometer0_A" description="Pinky Barometer0 Coefficient A"/>
+    <Coeff value="154.446433208" id="PinkyBarometer0_B" description="Pinky Barometer0 Coefficient B"/>
+    <Coeff value="-0.132428138487" id="PinkyBarometer3_A" description="Pinky Barometer3 Coefficient A"/>
+    <Coeff value="151.994519126" id="PinkyBarometer3_B" description="Pinky Barometer3 Coefficient B"/>
+    <Coeff value="-0.129242803344" id="PinkyBarometer2_A" description="Pinky Barometer2 Coefficient A"/>
+    <Coeff value="150.817146786" id="PinkyBarometer2_B" description="Pinky Barometer2 Coefficient B"/>
+    <Coeff value="-0.479965544298" id="PinkyProximal_A" description="Pinky Proximal Hall Sensor Coefficient A"/>
+    <Coeff value="228.667220832" id="PinkyProximal_B" description="Pinky Proximal Hall Sensor Coefficient B"/>
+    <Coeff value="-0.763581547748" id="PinkyMedial_A" description="Pinky Medial Hall Sensor Coefficient A"/>
+    <Coeff value="56.8759169994" id="PinkyMedial_B" description="Pinky Medial Hall Sensor Coefficient B"/>
+    <Coeff value="-6.87628880163e-15" id="PinkyDistal_A" description="Pinky Distal Hall Sensor Coefficient A"/>
+    <Coeff value="-0.785398163397" id="PinkyDistal_B" description="Pinky Distal Hall Sensor Coefficient B"/>
+  </Coeffs>
+</CoeffData>
