@@ -1,6 +1,6 @@
 <robot name="multisense_sl">
-  <!-- Head Link Simple Collision Meshes -->
-  <lint name="multisense/head">
+  <!-- Head link Simple Collision Meshes -->
+  <link name="multisense/head">
     <inertial>
       <origin xyz="-0.075493 3.3383E-05 0.02774" rpy="0 0 0" />
       <mass value="1.41984" />
@@ -28,7 +28,7 @@
     </geometry>
   </collision>
   </link>
-  <lint name="multisense/hokuyo_link">
+  <link name="multisense/hokuyo_link">
     <inertial>
       <origin xyz="0.032428 0.0004084 -0.0041835" rpy="0 0 0" />
       <mass value="0.057654" />
@@ -85,7 +85,7 @@
     <parent link="multisense/hokuyo_link"/>
     <child link="multisense/head_hokuyo_frame"/>
   </joint>
-  <lint name="multisense/head_hokuyo_frame">
+  <link name="multisense/head_hokuyo_frame">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
@@ -135,7 +135,7 @@
     <parent link="multisense/head"/>
     <child link="multisense/left_camera_frame"/>
   </joint>
-  <lint name="multisense/left_camera_frame">
+  <link name="multisense/left_camera_frame">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
@@ -148,7 +148,7 @@
     <parent link="multisense/left_camera_frame" />
     <child link="multisense/left_camera_optical_frame"/>
   </joint>
-  <lint name="multisense/left_camera_optical_frame"/>
+  <link name="multisense/left_camera_optical_frame"/>
   <gazebo reference="left_camera_frame">
     <sensor type="multicamera" name="stereo_camera">
       <!-- see MultiSenseSLPlugin.h for available modes -->
@@ -227,7 +227,7 @@
     <parent link="multisense/head"/>
     <child link="multisense/right_camera_frame"/>
   </joint>
-  <lint name="multisense/right_camera_frame">
+  <link name="multisense/right_camera_frame">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
@@ -240,14 +240,14 @@
     <parent link="multisense/right_camera_frame" />
     <child link="multisense/right_camera_optical_frame"/>
   </joint>
-  <lint name="multisense/right_camera_optical_frame"/>
+  <link name="multisense/right_camera_optical_frame"/>
 
   <joint name="center_top_led_frame_joint" type="fixed">
     <origin xyz="0.01125 0.0 0.0105"/>
     <parent link="multisense/head"/>
     <child link="multisense/center_top_led_frame"/>
   </joint>
-  <lint name="multisense/center_top_led_frame">
+  <link name="multisense/center_top_led_frame">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
@@ -260,7 +260,7 @@
     <parent link="multisense/head"/>
     <child link="multisense/center_bottom_led_frame"/>
   </joint>
-  <lint name="multisense/center_bottom_led_frame">
+  <link name="multisense/center_bottom_led_frame">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
@@ -273,7 +273,7 @@
     <parent link="multisense/head"/>
     <child link="multisense/left_led_frame"/>
   </joint>
-  <lint name="multisense/left_led_frame">
+  <link name="multisense/left_led_frame">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
@@ -286,7 +286,7 @@
     <parent link="multisense/head"/>
     <child link="multisense/right_led_frame"/>
   </joint>
-  <lint name="multisense/right_led_frame">
+  <link name="multisense/right_led_frame">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
@@ -300,7 +300,7 @@
   </gazebo>
 
   <!-- imu link -->
-  <lint name="multisense/head_imu_link">
+  <link name="multisense/head_imu_link">
     <inertial>
       <mass value="1e-5" />
       <!-- collocate with parent link and remove mass from it -->
