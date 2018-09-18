@@ -65,12 +65,12 @@
 
 
     <xacro:macro name="include_multisense_sim">
-      <xacro:fixed_joint jointName="multisense_head_root_joint" parent="upperNeckPitchLink" child="head" origin_xyz="0.183585961 0.0 0.075353826" origin_rpy="-3.14159 0.130899694 0.0" />
+      <xacro:fixed_joint jointName="multisense_head_root_joint" parent="upperNeckPitchLink" child="multisense/head" origin_xyz="0.183585961 0.0 0.075353826" origin_rpy="-3.14159 0.130899694 0.0" />
     </xacro:macro>
 
     <xacro:macro name="include_multisense_hw">
-      <xacro:massless_virtual_link name="multisense_root_link" origin_xyz="0 0 0" origin_rpy="0 0 0"/>
-      <xacro:fixed_joint jointName="multisense_head_root_joint" parent="upperNeckPitchLink" child="multisense_root_link" origin_xyz="0.183585961 0.0 0.075353826" origin_rpy="-3.14159 0.130899694 0.0" />
+      <xacro:massless_virtual_link name="multisense/head" origin_xyz="0 0 0" origin_rpy="0 0 0"/>
+      <xacro:fixed_joint jointName="multisense_head_root_joint" parent="upperNeckPitchLink" child="multisense/head" origin_xyz="0.183585961 0.0 0.075353826" origin_rpy="-3.14159 0.130899694 0.0" />
     </xacro:macro>
 
     <xacro:macro name="neck_transmissions_hw">
