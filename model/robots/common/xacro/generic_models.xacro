@@ -269,7 +269,7 @@
     </transmission>
   </xacro:macro>
 
-  <xacro:macro name="simple_effort_transmission_with_one_child_joint" params="jointName actuatorName nodeName actuatorApi child1JointName child1Ratio">
+  <xacro:macro name="simple_effort_transmission_with_one_child_joint" params="jointName actuatorName nodeName actuatorApi child1JointName child1Ratio reflect">
     <transmission name="${jointName}Transmission">
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${jointName}">
@@ -278,13 +278,13 @@
       </joint>
       <actuator name="${actuatorName}">
         <node name="${nodeName}"/>
-        <mechanicalReduction>1</mechanicalReduction>
+        <mechanicalReduction>${reflect}</mechanicalReduction>
         <api name="${actuatorApi}" />
       </actuator>
     </transmission>
   </xacro:macro>
 
-  <xacro:macro name="simple_effort_transmission_with_three_child_joints" params="jointName actuatorName nodeName actuatorApi child1JointName child1Ratio child2JointName child2Ratio child3JointName child3Ratio">
+  <xacro:macro name="simple_effort_transmission_with_three_child_joints" params="jointName actuatorName nodeName actuatorApi child1JointName child1Ratio child2JointName child2Ratio child3JointName child3Ratio reflect">
     <transmission name="${jointName}Transmission">
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${jointName}">
@@ -295,7 +295,7 @@
       </joint>
       <actuator name="${actuatorName}">
         <node name="${nodeName}"/>
-        <mechanicalReduction>1</mechanicalReduction>
+        <mechanicalReduction>${reflect}</mechanicalReduction>
         <api name="${actuatorApi}" />
       </actuator>
     </transmission>
