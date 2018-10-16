@@ -29,16 +29,16 @@
     <xacro:arm_transmissions_sim prefix="right"/>
     <xacro:neck_transmissions_sim />
 
-    <xacro:thumb_transmissions_sim prefix="left"/>
-    <xacro:thumb_transmissions_sim prefix="right"/>
+    <xacro:thumb_transmissions_sim prefix="left" reflect="-1"/>
+    <xacro:thumb_transmissions_sim prefix="right" reflect="1"/>
 
-    <xacro:index_finger_transmissions_sim prefix="left"/>
-    <xacro:index_finger_transmissions_sim prefix="right"/>
+    <xacro:index_finger_transmissions_sim prefix="left" reflect="-1"/>
+    <xacro:index_finger_transmissions_sim prefix="right" reflect="1"/>
 
-    <xacro:middle_finger_transmissions_sim prefix="left"/>
-    <xacro:middle_finger_transmissions_sim prefix="right"/>
+    <xacro:middle_finger_transmissions_sim prefix="left" reflect="-1"/>
+    <xacro:middle_finger_transmissions_sim prefix="right" reflect="1"/>
 
-    <xacro:pinky_transmissions_sim prefix="left"/>
-    <xacro:pinky_transmissions_sim prefix="right"/>
+    <xacro:pinky_transmissions_sim prefix="left" reflect="-1"/>
+    <xacro:pinky_transmissions_sim prefix="right" reflect="1"/>
 
 </robot>
