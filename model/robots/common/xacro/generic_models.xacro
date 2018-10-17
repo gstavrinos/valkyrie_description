@@ -274,11 +274,11 @@
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${jointName}">
         <hardwareInterface>EffortJointInterface</hardwareInterface>
-        <child name="${child1JointName}" ratio="${child1Ratio}"/>
+        <child name="${child1JointName}" ratio="${reflect}*${child1Ratio}"/>
       </joint>
       <actuator name="${actuatorName}">
         <node name="${nodeName}"/>
-        <mechanicalReduction>${reflect}</mechanicalReduction>
+        <mechanicalReduction>1</mechanicalReduction>
         <api name="${actuatorApi}" />
       </actuator>
     </transmission>
@@ -289,13 +289,13 @@
       <type>transmission_interface/SimpleTransmission</type>
       <joint name="${jointName}">
         <hardwareInterface>EffortJointInterface</hardwareInterface>
-        <child name="${child1JointName}" ratio="${child1Ratio}"/>
-        <child name="${child2JointName}" ratio="${child2Ratio}"/>
-        <child name="${child3JointName}" ratio="${child3Ratio}"/>
+        <child name="${child1JointName}" ratio="${reflect}*${child1Ratio}"/>
+        <child name="${child2JointName}" ratio="${reflect}*${child2Ratio}"/>
+        <child name="${child3JointName}" ratio="${reflect}*${child3Ratio}"/>
       </joint>
       <actuator name="${actuatorName}">
         <node name="${nodeName}"/>
-        <mechanicalReduction>${reflect}</mechanicalReduction>
+        <mechanicalReduction>1</mechanicalReduction>
         <api name="${actuatorApi}" />
       </actuator>
     </transmission>
